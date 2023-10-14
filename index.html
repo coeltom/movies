@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="main.js" />
-    <script defer src="key.js" />
+    <script defer src="main.js"></script>
+    <script defer src="key.js"></script>
     <title>Movies app</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="searchContainer">
+        <input type="text" placeholder="Enter Movie..." id="movieName" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="result"></div>
+    </div>
   </body>
 </html>
