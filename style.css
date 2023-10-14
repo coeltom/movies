@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(#000 50%, #e53838 50%);
+}
+
+.container {
+  width: 90vw;
+  padding: 3em 1.8em;
+  background-color: #201f28;
+}
