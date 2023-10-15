@@ -24,7 +24,18 @@ async function fetchMovie() {
             <span class="year">${movie.Year}</span>
             <span class="runtime">${movie.Runtime}</span>
           </div>
+            <div class="genre">
+              <div>
+                ${movie.Genre.split(',').join('</div><div>')}
+              </div>
+          </div>
         </div>
+    </div>
+    <div class="details">
+      <h3>Plot:</h3>
+      <p>${movie.Plot}</p>
+      <h3>Cast:</h3>
+      <p>${movie.Actors}</p>
     </div>
   `;
   }
