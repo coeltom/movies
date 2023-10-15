@@ -5,7 +5,7 @@ let result = document.getElementById('result');
 //fetch data fn
 async function fetchMovie() {
   let title = movieNameRef.value;
-  let url = `http://www.omdbapi.com/?t=${title}&apikey=${key}`;
+  let url = `https://www.omdbapi.com/?t=${title}&apikey=${key}`;
   if (title.length <= 0) {
     result.innerHTML = `<h3 class="msg">Please enter movie title</h3>`;
   } else {
