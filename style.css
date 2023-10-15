@@ -52,3 +52,34 @@ body {
   border: none;
   cursor: pointer;
 }
+
+#result {
+  color: #f2f2f2;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  align-items: center;
+  margin-top: 1.2em;
+}
+
+.poster {
+  width: 100%;
+}
+
+.movieTitle {
+  text-align: center;
+}
+
+.imdb {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.ratingRuntime {
+  display: flex;
+  gap: 1.2em;
+  justify-content: center;
+  margin-top: 1em;
+}
